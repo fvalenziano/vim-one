@@ -45,7 +45,7 @@ VisualNOS: ''
 WarningMsg: ''
 WildMenu: ''
 # BASE SYNTAX
-Comment: ''
+Comment: 'White'
 Constant: ''
 String: '' # Constant
 Character: '' # Constant
