@@ -267,6 +267,8 @@ if has('gui_running') || has('termguicolors') || &t_Co == 88 || &t_Co == 256
     let s:mono_1 = 'abb2bf'
     let s:mono_2 = '828997'
     let s:mono_3 = '5c6370'
+    " added mono_3_2 for new comment color
+    let s:mono_3_2 = 'a9a9a9'
     let s:mono_4 = '4b5263'
 
     let s:hue_1  = '56b6c2' " cyan
@@ -378,7 +380,7 @@ if has('gui_running') || has('termguicolors') || &t_Co == 88 || &t_Co == 256
   " }}}
 
   " Standard syntax highlighting --------------------------------------------{{{
-  call <sid>X('Comment',        s:mono_3,        '',          'italic')
+  call <sid>X('Comment',        s:mono_3_2,      '',          'italic')
   call <sid>X('Constant',       s:hue_4,         '',          '')
   call <sid>X('String',         s:hue_4,         '',          '')
   call <sid>X('Character',      s:hue_4,         '',          '')
