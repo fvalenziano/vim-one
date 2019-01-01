@@ -293,6 +293,7 @@ if has('gui_running') || has('termguicolors') || &t_Co == 88 || &t_Co == 256
     let s:pmenu        = '333841'
   else
     let s:mono_1 = '494b53'
+    let s:mono_1_2 = '0184bc'
     let s:mono_2 = '696c77'
     let s:mono_3 = 'a0a1a7'
     let s:mono_4 = 'c2c2c3'
@@ -321,7 +322,7 @@ if has('gui_running') || has('termguicolors') || &t_Co == 88 || &t_Co == 256
     let s:pmenu        = 'dfdfdf'
   endif
 
-  let s:syntax_fg = s:mono_1
+  let s:syntax_fg = s:mono_1_2
   let s:syntax_fold_bg = s:mono_3
 
   "}}}
